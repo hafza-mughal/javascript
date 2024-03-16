@@ -1,100 +1,71 @@
-let percentage = prompt("enter your percentage");
-let grade ;
+let percentage=prompt("Enter your age");
+let Grade;
 
-if(percentage>=90 && percentage <=100)
-{
-    console.log("grade A+1")
-    grade = " A+1"
-}
+if(percentage>=90 && percentage<=100)
 
-else if(percentage >= 80 && percentage <90)
 {
-     console.log("grade A+")
-     grade = " A+"
+    console.log("Grade A+1")  
+    Grade = "A+1"
 }
-
-else if(percentage >= 70 && percentage <80)
+else if(percentage>=80 && percentage<=89)
 {
-     console.log("A")
-     grade = " A"
+    console.log("Grade A1")
+    Grade = "A1"
 }
-
-else if(percentage >= 60 && percentage <70)
+else if(percentage>=70 && percentage<=79)
 {
-     console.log("B")
-     grade = "B"
+    console.log("Grade A")
+    Grade = "A"
 }
-
-else if(percentage >=50 && percentage <60)
+else if(percentage>=60 && percentage<=69)
 {
-     console.log(" C")
-     grade = " C"
+    console.log("Grade B")
+    Grade = "B"
 }
-
-else if(percentage >=40 && percentage <50)
+else if(percentage>=50 && percentage<=59)
 {
-     console.log(" D")
-     grade = " D"
+    console.log("Grade c")
+    Grade = "C"
 }
-else if(percentage<30 && percentage <40)
+else if(percentage>=40 && percentage<=49)
 {
-     console.log("fail")
-     grade = " fail"
+    console.log("Grade F")
+    Grade = "F"
 }
-
-else{
-    console.log ("incorrect input")
+else if(percentage<34)
+{
+    console.log("Fail")
+    Grade ="Fail"
+}
+else
+{
+    console.log("Nonono")
 }
 
 
 
-
-
-
-
-switch(grade)
+switch(Grade)
 {
-    case "A+1":
-    console.log("congrulations ap ne kashmir azad kar liya ha job phr bhi nahi milni .......................😒😒🎉");
-
+    case"A+1":
+    console.log("ya good ha😎");
+    break;
+    case"A1":
+    console.log("isy bhi ham good kh sakty han☺");
+    break;
+    case "A":
+        console.log("ya tary lia acha tha");
 break;
-
-case "A+":
-    console.log("kiya kar raho ho bhai wo daikho wo aagy nikal gaya sar phar do uska 🏑⛏⛏⛏🛠💉");
-
+case"B":
+console.log("thori or mehnat karo shayad A grade aa jay☹");
 break;
-
-case "A":
-    console.log("apke saath teacher loyal nahi ha ");
-
-break;
-
-case "B":
-    console.log("chalo koi baat nahi ab roo nahi sb ne cheating se number liya ha ☺🙂");
-
-break;
-
 case "C":
-    console.log("mashallah se apka future brigth ha isme full light shight ha 😀😚😅");
-
+console.log("ya tum na acha nhi kia ghar ka nam badnam kar diya😔");
 break;
-
-case "D":
-    console.log("ek papar supli me gya chapak 😁😂🤣");
-
+case"D":
+console.log("daffa ho jaou ghar ko or batan dhoo jaa kar 😡");
 break;
-
-case "Fail":
-    console.log("allah sabr de wasy bolna nahi chaiye sary papar supli me gay chapak chapak chapak😭😭😢");
-
+case"fail":
+console.log("ya kia mazzq tha");
 break;
-
-
-
-
-
-
-
-
-
 }
+
