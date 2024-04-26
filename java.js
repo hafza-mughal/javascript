@@ -1,10 +1,9 @@
+ 
 
+ let firstname = prompt("enter your first name")
 
-let num1= prompt("enter the num")
-let num2= prompt("enter the num")
-let num3= prompt("enter the num")
+ let middlename = prompt("enter your middle name")
+ 
+ let lastname = prompt("enter your last name")
 
-
-console.log("the result of adding three num is :" ,+num1+ +num2+
- +num3)
-
+ console.log(firstname, middlename, lastname);
